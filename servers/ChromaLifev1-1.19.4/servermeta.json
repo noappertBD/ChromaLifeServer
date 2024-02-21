@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///D:/ChromaLifeServer/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "",
+    "name": "ChromaLifev1 (Minecraft 1.19.4)",
+    "description": "ChromaLifev1 Running Minecraft 1.19.4 (Forge v45.2.0)",
+    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "address": "localhost:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": false,
+    "autoconnect": false
+  },
+  "forge": {
+    "version": "45.2.0"
+  },
+  "untrackedFiles": []
+}
