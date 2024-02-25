@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "1169609499024293899",
+    "smallImageText": "Chroma Launcher",
+    "smallImageKey": "chromalife"
   },
   "servers": [
     {
@@ -16,9 +16,9 @@
       "address": "chromalife.aternos.me",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "chromalife",
+        "largeImageText": "Serveur ChromaLifeV1",
+        "largeImageKey": "chromalife"
       },
       "mainServer": true,
       "autoconnect": true,
@@ -514,9 +514,9 @@
       "address": "dictalland.aternos.me",
       "minecraftVersion": "1.20.1",
       "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+        "shortId": "dictaland",
+        "largeImageText": "Serveur moddé DictaLand",
+        "largeImageKey": "dictaland"
       },
       "mainServer": false,
       "autoconnect": true,

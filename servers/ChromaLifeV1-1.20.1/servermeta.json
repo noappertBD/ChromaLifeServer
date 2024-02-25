@@ -4,15 +4,15 @@
     "version": "1.0.0",
     "name": "ChromaLifeV1 (Minecraft 1.20.1)",
     "description": "ChromaLifeV1 Running Minecraft 1.20.1 (Forge v47.2.20)",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
-    "address": "localhost:25565",
+    "icon": "https://cdn.discordapp.com/icons/1162759415393431672/4ddfbf54fe624b46cb952daef9551a35.webp",
+    "address": "chromalife.aternos.me",
     "discord": {
-      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      "shortId": "chromalife",
+      "largeImageText": "Serveur ChromaLifeV1",
+      "largeImageKey": "chromalife"
     },
-    "mainServer": false,
-    "autoconnect": false
+    "mainServer": true,
+    "autoconnect": true
   },
   "forge": {
     "version": "47.2.20"
