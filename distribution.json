@@ -1301,16 +1301,6 @@
           }
         },
         {
-          "id": "net.vulkanmod:vulkanmod:0.3.9@jar",
-          "name": "VulkanMod",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 18484955,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/fabricmods/required/VulkanMod_1.20.4-0.3.9.jar",
-            "MD5": "492e0ec18d9b829a5e31203e61b11f0f"
-          }
-        },
-        {
           "id": "Faithful 32x - 1.20.4.zip",
           "name": "Faithful 32x - 1.20.4.zip",
           "type": "File",
