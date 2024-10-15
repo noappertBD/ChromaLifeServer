@@ -1,0 +1,21 @@
+{
+  "$schema": "file:///C:/Users/noapp/Downloads/Nebula-master/serevr/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1",
+    "name": "MODDED (Minecraft 1.16.5)",
+    "description": "MODDED Running Minecraft 1.16.5 (Forge v36.2.42)",
+    "icon": "https://pbs.twimg.com/profile_images/1423284666136596494/0S5IMuRf_400x400.jpg",
+    "address": "modded.bluedistrict.fr:25565",
+    "discord": {
+      "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+      "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    },
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "forge": {
+    "version": "36.2.42"
+  },
+  "untrackedFiles": []
+}

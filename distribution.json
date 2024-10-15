@@ -2,1357 +2,1198 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "1169609499024293899",
-    "smallImageText": "Chroma Launcher",
-    "smallImageKey": "chromalife"
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
   },
   "servers": [
     {
-      "id": "ChromaLifeV1-1.20.1",
-      "name": "ChromaLifeV1 (Minecraft 1.20.1)",
-      "description": "ChromaLifeV1 Running Minecraft 1.20.1 (Forge v47.2.20)",
-      "icon": "https://cdn.discordapp.com/icons/1162759415393431672/4ddfbf54fe624b46cb952daef9551a35.webp",
-      "version": "1.0.0",
-      "address": "chromalife.aternos.me",
-      "minecraftVersion": "1.20.1",
+      "id": "MODDED-1.16.5",
+      "name": "MODDED (Minecraft 1.16.5)",
+      "description": "MODDED Running Minecraft 1.16.5 (Forge v36.2.42)",
+      "icon": "https://pbs.twimg.com/profile_images/1423284666136596494/0S5IMuRf_400x400.jpg",
+      "version": "1",
+      "address": "modded.bluedistrict.fr:25565",
+      "minecraftVersion": "1.16.5",
       "discord": {
-        "shortId": "chromalife",
-        "largeImageText": "Serveur ChromaLifeV1",
-        "largeImageKey": "chromalife"
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
       "autoconnect": true,
       "modules": [
         {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
-          "name": "Minecraft Forge (lowcodelanguage)",
+          "id": "net.minecraftforge:forge:1.16.5-36.2.42",
+          "name": "Minecraft Forge (base jar)",
           "type": "ForgeHosted",
           "classpath": true,
           "artifact": {
-            "size": 7400,
-            "MD5": "9445bd28cb8bbf3405bcacc54627a6da",
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar"
+            "size": 212563,
+            "MD5": "8ff0086ade0cf0f1d513e72edd04348c",
+            "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42.jar"
           },
           "subModules": [
             {
-              "id": "1.20.1-47.2.20",
+              "id": "1.16.5-36.2.42",
               "name": "Minecraft Forge (version.json)",
               "type": "VersionManifest",
               "artifact": {
-                "size": 16554,
-                "MD5": "2b7daf23d11fff0d0e2b7ae54712dbdf",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/versions/1.20.1-forge-47.2.20/1.20.1-forge-47.2.20.json"
+                "size": 13577,
+                "MD5": "f38b527e26e0a0165e2118970d1a4d13",
+                "url": "http://bluedistrict.fr/repo/versions/1.16.5-forge-36.2.42/1.16.5-forge-36.2.42.json"
               }
             },
             {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.20",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 118686,
-                "MD5": "a710f72f170f88737ff72a53ea1349d8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.20",
-              "name": "Minecraft Forge (javafmllanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 16517,
-                "MD5": "3521da7e51982c2ace3a21ffe4070693",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.20",
-              "name": "Minecraft Forge (mclanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 4999,
-                "MD5": "4aeef0ba963dfbe0c4104b6532989988",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.20:universal",
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:universal",
               "name": "Minecraft Forge (universal jar)",
               "type": "Library",
-              "classpath": false,
+              "classpath": true,
               "artifact": {
-                "size": 2679250,
-                "MD5": "27de7a3f2e5c69d54bc52cb179831aa9",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar"
+                "size": 2540080,
+                "MD5": "d5b89861a4e02bab15a111d529d99d86",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-universal.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.20:client",
+              "id": "net.minecraftforge:forge:1.16.5-36.2.42:client",
               "name": "Minecraft Forge (client jar)",
               "type": "Library",
-              "classpath": false,
+              "classpath": true,
               "artifact": {
-                "size": 4791301,
-                "MD5": "c548aeb8e9e1cd028005b628b54f3a29",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-client.jar"
+                "size": 4214276,
+                "MD5": "e26430416f5d1bd7c205c1b81a0fb8f8",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/forge/1.16.5-36.2.42/forge-1.16.5-36.2.42-client.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
               "name": "Minecraft Forge (client srg)",
               "type": "Library",
-              "classpath": false,
+              "classpath": true,
               "artifact": {
-                "size": 18842082,
-                "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+                "size": 11352644,
+                "MD5": "2877901858aaf7b39184a3883f23af1c",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
               "name": "Minecraft Forge (client slim)",
               "type": "Library",
-              "classpath": false,
+              "classpath": true,
               "artifact": {
-                "size": 12592249,
-                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
               },
               "subModules": []
             },
             {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
               "name": "Minecraft Forge (client extra)",
               "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 10436626,
-                "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "cpw.mods:securejarhandler:2.1.10",
-              "name": "Minecraft Forge (securejarhandler)",
-              "type": "Library",
-              "artifact": {
-                "size": 88749,
-                "MD5": "d9ff48d1c68388270388b803fa42611e",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.5",
-              "name": "Minecraft Forge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 121863,
-                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.5",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72209,
-                "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.5",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51944,
-                "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.5",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 91076,
-                "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.5",
-              "name": "Minecraft Forge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 33978,
-                "MD5": "4df0adafc78ebba404d4037987d36b61",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:8.0.4",
-              "name": "Minecraft Forge (accesstransformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 77756,
-                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-              }
-            },
-            {
-              "id": "org.antlr:antlr4-runtime:4.9.1",
-              "name": "Minecraft Forge (antlr4-runtime)",
-              "type": "Library",
-              "artifact": {
-                "size": 337868,
-                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:eventbus:6.0.5",
-              "name": "Minecraft Forge (eventbus)",
-              "type": "Library",
-              "artifact": {
-                "size": 53985,
-                "MD5": "2a6245210b446b2144071e71ca13432b",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forgespi:7.0.1",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 29831,
-                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:5.0.1",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 24199,
-                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:10.0.9",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 130343,
-                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:mergetool:1.1.5:api",
-              "name": "Minecraft Forge (mergetool)",
-              "type": "Library",
-              "artifact": {
-                "size": 2572,
-                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.4",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199834,
-                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.4",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31816,
-                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.5",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58077,
-                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.6.3",
-              "name": "Minecraft Forge (typetools)",
-              "type": "Library",
-              "artifact": {
-                "size": 18281,
-                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.12.1",
-              "name": "Minecraft Forge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 150765,
-                "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.12.1",
-              "name": "Minecraft Forge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 211712,
-                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.5",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1089277,
-                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-              }
-            },
-            {
-              "id": "org.openjdk.nashorn:nashorn-core:15.3",
-              "name": "Minecraft Forge (nashorn-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 2167288,
-                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarSelector:0.3.19",
-              "name": "Minecraft Forge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 17374,
-                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-              "name": "Minecraft Forge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15895,
-                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:1.1.2",
-              "name": "Minecraft Forge (bootstraplauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 8284,
-                "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-              "name": "Minecraft Forge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 32195,
-                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.20",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 264185,
-                "MD5": "acee22eaf221c8cd61225002596f7640",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.20/fmlloader-1.20.1-47.2.20.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.20",
-              "name": "Minecraft Forge (fmlearlydisplay)",
-              "type": "Library",
-              "artifact": {
-                "size": 170553,
-                "MD5": "b54b6fe4bd44788dcc6655f3399541f4",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.20/fmlearlydisplay-1.20.1-47.2.20.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "mezz.jei:jei:15.3.0.4@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1127828,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/forgemods/required/jei-1.20.1-forge-15.3.0.4.jar",
-            "MD5": "8f2c0bbb8f691be76f0b44c1d61d94e7"
-          }
-        },
-        {
-          "id": "journeymap:journeymap:5.9.18@jar",
-          "name": "Journeymap",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7137844,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/forgemods/required/journeymap-1.20.1-5.9.18-forge.jar",
-            "MD5": "edbc385e7bc9741b609553e7d6ed2f5d"
-          }
-        },
-        {
-          "id": "net.coderbot.iris:oculus:1.6.15a@jar",
-          "name": "Oculus",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 2806358,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/forgemods/required/oculus-mc1.20.1-1.6.15a.jar",
-            "MD5": "b6d1e02b5fccf72570fa19606006d711"
-          }
-        },
-        {
-          "id": "com.minenash:seamless_loading_screen:2.0.3+1.20.1@jar",
-          "name": "Seamless Loading Screen",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1015562,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/forgemods/required/seamless-loading-screen-2.0.3+1.20.1-forge.jar",
-            "MD5": "3b2a0bbfff2397c019b329bf2c14a2b8"
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.4.32@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7660001,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.4.32.jar",
-            "MD5": "439d5b1ceb670d4d4761e700cb10cbff"
-          }
-        },
-        {
-          "id": "com.sk89q:worldedit:7.2.15+6463-5ca4dff@jar",
-          "name": "WorldEdit",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5825402,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/forgemods/required/worldedit-mod-7.2.15.jar",
-            "MD5": "bd0e7cff7896348faab92e43300d0639"
-          }
-        },
-        {
-          "id": "3.3.1v_VisualEnchantments.zip",
-          "name": "3.3.1v_VisualEnchantments.zip",
-          "type": "File",
-          "artifact": {
-            "size": 28875124,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/ChromaLifeV1-1.20.1/files/resourcepacks/3.3.1v_VisualEnchantments.zip",
-            "MD5": "ddb5a951d161f23701f381ef80e849b5",
-            "path": "resourcepacks/3.3.1v_VisualEnchantments.zip"
-          }
-        }
-      ]
-    },
-    {
-      "id": "DictaLand-1.20.1",
-      "name": "DictaLand (Minecraft 1.20.1)",
-      "description": "DictaLand Running Minecraft 1.20.1 (Forge v47.2.20)",
-      "icon": "https://cdn.discordapp.com/attachments/1162761500612632688/1208856143837925477/Logo_DictaLand.png?ex=65e4ce04&is=65d25904&hm=d3f94dc7003105308b39dcc11b522ba428cd346097961bb700250e752785084f&",
-      "version": "1.0.0",
-      "address": "dictalland.aternos.me",
-      "minecraftVersion": "1.20.1",
-      "discord": {
-        "shortId": "dictaland",
-        "largeImageText": "Serveur moddé DictaLand",
-        "largeImageKey": "dictaland"
-      },
-      "mainServer": false,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.2.20",
-          "name": "Minecraft Forge (lowcodelanguage)",
-          "type": "ForgeHosted",
-          "classpath": true,
-          "artifact": {
-            "size": 7400,
-            "MD5": "9445bd28cb8bbf3405bcacc54627a6da",
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.2.20/lowcodelanguage-1.20.1-47.2.20.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.1-47.2.20",
-              "name": "Minecraft Forge (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 16554,
-                "MD5": "2b7daf23d11fff0d0e2b7ae54712dbdf",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/versions/1.20.1-forge-47.2.20/1.20.1-forge-47.2.20.json"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlcore:1.20.1-47.2.20",
-              "name": "Minecraft Forge (fmlcore)",
-              "type": "Library",
               "classpath": true,
               "artifact": {
-                "size": 118686,
-                "MD5": "a710f72f170f88737ff72a53ea1349d8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.2.20/fmlcore-1.20.1-47.2.20.jar"
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
               },
               "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.2.20",
-              "name": "Minecraft Forge (javafmllanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 16517,
-                "MD5": "3521da7e51982c2ace3a21ffe4070693",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.2.20/javafmllanguage-1.20.1-47.2.20.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:mclanguage:1.20.1-47.2.20",
-              "name": "Minecraft Forge (mclanguage)",
-              "type": "Library",
-              "classpath": true,
-              "artifact": {
-                "size": 4999,
-                "MD5": "4aeef0ba963dfbe0c4104b6532989988",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.2.20/mclanguage-1.20.1-47.2.20.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.20:universal",
-              "name": "Minecraft Forge (universal jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 2679250,
-                "MD5": "27de7a3f2e5c69d54bc52cb179831aa9",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-universal.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraftforge:forge:1.20.1-47.2.20:client",
-              "name": "Minecraft Forge (client jar)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 4791301,
-                "MD5": "c548aeb8e9e1cd028005b628b54f3a29",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forge/1.20.1-47.2.20/forge-1.20.1-47.2.20-client.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
-              "name": "Minecraft Forge (client srg)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 18842082,
-                "MD5": "8bfacfba4f54cda741019756165c5ecf",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
-              "name": "Minecraft Forge (client slim)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 12592249,
-                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
-              "name": "Minecraft Forge (client extra)",
-              "type": "Library",
-              "classpath": false,
-              "artifact": {
-                "size": 10436626,
-                "MD5": "da6bb1a2c23108392fd6c103da40867c",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
-              },
-              "subModules": []
-            },
-            {
-              "id": "cpw.mods:securejarhandler:2.1.10",
-              "name": "Minecraft Forge (securejarhandler)",
-              "type": "Library",
-              "artifact": {
-                "size": 88749,
-                "MD5": "d9ff48d1c68388270388b803fa42611e",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.5",
-              "name": "Minecraft Forge (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 121863,
-                "MD5": "29721ee4b5eacf0a34b204c345c8bc69",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm/9.5/asm-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.5",
-              "name": "Minecraft Forge (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 72209,
-                "MD5": "7d1fce986192f71722b19754e4cb9e61",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.5",
-              "name": "Minecraft Forge (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51944,
-                "MD5": "44755681b7d6fa7143afbb438e55c20c",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.5",
-              "name": "Minecraft Forge (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 91076,
-                "MD5": "ad0016249fb68bb9196babefd47b80dc",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.5",
-              "name": "Minecraft Forge (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 33978,
-                "MD5": "4df0adafc78ebba404d4037987d36b61",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:accesstransformers:8.0.4",
-              "name": "Minecraft Forge (accesstransformers)",
-              "type": "Library",
-              "artifact": {
-                "size": 77756,
-                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
-              }
-            },
-            {
-              "id": "org.antlr:antlr4-runtime:4.9.1",
-              "name": "Minecraft Forge (antlr4-runtime)",
-              "type": "Library",
-              "artifact": {
-                "size": 337868,
-                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:eventbus:6.0.5",
-              "name": "Minecraft Forge (eventbus)",
-              "type": "Library",
-              "artifact": {
-                "size": 53985,
-                "MD5": "2a6245210b446b2144071e71ca13432b",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:forgespi:7.0.1",
-              "name": "Minecraft Forge (forgespi)",
-              "type": "Library",
-              "artifact": {
-                "size": 29831,
-                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:coremods:5.0.1",
-              "name": "Minecraft Forge (coremods)",
-              "type": "Library",
-              "artifact": {
-                "size": 24199,
-                "MD5": "8c590051c5d65e098ca7c2e3ddf803a8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:modlauncher:10.0.9",
-              "name": "Minecraft Forge (modlauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 130343,
-                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:unsafe:0.2.0",
-              "name": "Minecraft Forge (unsafe)",
-              "type": "Library",
-              "artifact": {
-                "size": 2834,
-                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:mergetool:1.1.5:api",
-              "name": "Minecraft Forge (mergetool)",
-              "type": "Library",
-              "artifact": {
-                "size": 2572,
-                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:core:3.6.4",
-              "name": "Minecraft Forge (core)",
-              "type": "Library",
-              "artifact": {
-                "size": 199834,
-                "MD5": "d83ab07267e402131fb93d899a57f5cd",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
-              }
-            },
-            {
-              "id": "com.electronwill.night-config:toml:3.6.4",
-              "name": "Minecraft Forge (toml)",
-              "type": "Library",
-              "artifact": {
-                "size": 31816,
-                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
-              }
-            },
-            {
-              "id": "org.apache.maven:maven-artifact:3.8.5",
-              "name": "Minecraft Forge (maven-artifact)",
-              "type": "Library",
-              "artifact": {
-                "size": 58077,
-                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
-              }
-            },
-            {
-              "id": "net.jodah:typetools:0.6.3",
-              "name": "Minecraft Forge (typetools)",
-              "type": "Library",
-              "artifact": {
-                "size": 18281,
-                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
-              }
-            },
-            {
-              "id": "net.minecrell:terminalconsoleappender:1.2.0",
-              "name": "Minecraft Forge (terminalconsoleappender)",
-              "type": "Library",
-              "artifact": {
-                "size": 15977,
-                "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-reader:3.12.1",
-              "name": "Minecraft Forge (jline-reader)",
-              "type": "Library",
-              "artifact": {
-                "size": 150765,
-                "MD5": "a2e7b012cd9802f83321187409174a94",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.jline:jline-terminal:3.12.1",
-              "name": "Minecraft Forge (jline-terminal)",
-              "type": "Library",
-              "artifact": {
-                "size": 211712,
-                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
-              }
-            },
-            {
-              "id": "org.spongepowered:mixin:0.8.5",
-              "name": "Minecraft Forge (mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1089277,
-                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
-              }
-            },
-            {
-              "id": "org.openjdk.nashorn:nashorn-core:15.3",
-              "name": "Minecraft Forge (nashorn-core)",
-              "type": "Library",
-              "artifact": {
-                "size": 2167288,
-                "MD5": "91e98c20afa1090c344229ce28b4c53f",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarSelector:0.3.19",
-              "name": "Minecraft Forge (JarJarSelector)",
-              "type": "Library",
-              "artifact": {
-                "size": 17374,
-                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
-              "name": "Minecraft Forge (JarJarMetadata)",
-              "type": "Library",
-              "artifact": {
-                "size": 15895,
-                "MD5": "9633546d299d4282ca68d10582be1c8f",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
-              }
-            },
-            {
-              "id": "cpw.mods:bootstraplauncher:1.1.2",
-              "name": "Minecraft Forge (bootstraplauncher)",
-              "type": "Library",
-              "artifact": {
-                "size": 8284,
-                "MD5": "48f5255aa337344c467c0150d347813d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
-              "name": "Minecraft Forge (JarJarFileSystems)",
-              "type": "Library",
-              "artifact": {
-                "size": 32195,
-                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlloader:1.20.1-47.2.20",
-              "name": "Minecraft Forge (fmlloader)",
-              "type": "Library",
-              "artifact": {
-                "size": 264185,
-                "MD5": "acee22eaf221c8cd61225002596f7640",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.2.20/fmlloader-1.20.1-47.2.20.jar"
-              }
-            },
-            {
-              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.2.20",
-              "name": "Minecraft Forge (fmlearlydisplay)",
-              "type": "Library",
-              "artifact": {
-                "size": 170553,
-                "MD5": "b54b6fe4bd44788dcc6655f3399541f4",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.2.20/fmlearlydisplay-1.20.1-47.2.20.jar"
-              }
-            }
-          ]
-        },
-        {
-          "id": "com.github.alexthe666:alexsmobs:1.22.7@jar",
-          "name": "Alex's Mobs Interaction",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 26129181,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/alexsmobs-1.22.7.jar",
-            "MD5": "1d47138e78b7b1dcb3acf369b36373a8"
-          }
-        },
-        {
-          "id": "com.ldtteam.blockui.mod:blockui:1.20.1-1.0.139-BETA@jar",
-          "name": "UI Library Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 384762,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/blockui-1.20.1-1.0.139-BETA.jar",
-            "MD5": "43c9158a11a080066b81f8c4fe9ff0a3"
-          }
-        },
-        {
-          "id": "cech12.bucketlib:bucketlib:1.20.1-2.3.3.0@jar",
-          "name": "BucketLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 133154,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/bucketlib-1.20.1-2.3.3.0.jar",
-            "MD5": "79c4389acf228f18caf9783300d66128"
-          }
-        },
-        {
-          "id": "com.github.alexthe666:citadel:2.5.3@jar",
-          "name": "Citadel",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3175394,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/citadel-2.5.3-1.20.1.jar",
-            "MD5": "79ff29bc6f758d2f0564cf1362407016"
-          }
-        },
-        {
-          "id": "com.ldtteam.domumornamentum:domum_ornamentum:1.20-1.0.157-BETA@jar",
-          "name": "Domum Ornamentum",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1062487,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/domum_ornamentum-1.20-1.0.157-BETA-universal.jar",
-            "MD5": "c22163d2d6ae28f5c508f9b4d1126da5"
-          }
-        },
-        {
-          "id": "de.maxhenkel:gravestone:1.20.1-1.0.10@jar",
-          "name": "Gravestone Mod",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 313079,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/gravestone-1.20.1-1.0.10.jar",
-            "MD5": "7eb80f5d574f77e965105a1c4414d893"
-          }
-        },
-        {
-          "id": "immersive_aircraft:immersive_aircraft:0.7.1+1.20.1@jar",
-          "name": "Immersive Aircraft",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1867158,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/immersive_aircraft-0.7.1+1.20.1-forge.jar",
-            "MD5": "8e278d44b669b718b601269c04506b98"
-          }
-        },
-        {
-          "id": "com.progwml6:ironchest:1.20.1-14.4.4@jar",
-          "name": "Iron Chests",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 311290,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/ironchest-1.20.1-14.4.4.jar",
-            "MD5": "078fbc43b289995ca4a8cced59bbf0ef"
-          }
-        },
-        {
-          "id": "mezz.jei:jei:15.3.0.4@jar",
-          "name": "Just Enough Items",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1127828,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/jei-1.20.1-forge-15.3.0.4.jar",
-            "MD5": "8f2c0bbb8f691be76f0b44c1d61d94e7"
-          }
-        },
-        {
-          "id": "net.mcreator:medieval_craft_weapons:1.0.0@jar",
-          "name": "Medieval_craft_weapons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 747979,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/MedievalCraftWeapons-1.20.1-1.0.2.jar",
-            "MD5": "01314a40b5cfdc014b9411c8dde8f8d4"
-          }
-        },
-        {
-          "id": "com.minecolonies.core:minecolonies:1.20.1-1.1.464-RELEASE@jar",
-          "name": "MineColonies",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 77860443,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/minecolonies-1.20.1-1.1.464-RELEASE.jar",
-            "MD5": "a99ae89e9711d350f089befd42b6d22b"
-          }
-        },
-        {
-          "id": "com.ldtteam:multipiston:1.20-1.2.31-ALPHA@jar",
-          "name": "Multi-Piston",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 38708,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/multipiston-1.20-1.2.31-ALPHA.jar",
-            "MD5": "78cea0097105912884380ab9bca54da5"
-          }
-        },
-        {
-          "id": "dev.buildtool:satako:7.0.14-1.20.1@jar",
-          "name": "Satako",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 105468,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/Satako-7.0.14-1.20.1.jar",
-            "MD5": "37a12ad80e31a6ae1ae0e83c465870b1"
-          }
-        },
-        {
-          "id": "sereneseasons.core:sereneseasons:9.0.0.46@jar",
-          "name": "Serene Seasons",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 148149,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/SereneSeasons-1.20.1-9.0.0.46.jar",
-            "MD5": "30faa2569ac8c43e943d277755378b63"
-          }
-        },
-        {
-          "id": "mod.alexndr:simplecorelib:1.20.1-6.0.1.2@jar",
-          "name": "SimpleCoreLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 175942,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/SimpleCoreLib-1.20.1-6.0.1.2.jar",
-            "MD5": "329da3e083f92e73d789a688c79b0cf4"
-          }
-        },
-        {
-          "id": "mod.alexndr:simpleores:1.20.1-6.0.0.3@jar",
-          "name": "Simple Ores",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 497328,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/SimpleOres2-1.20.1-6.0.0.3.jar",
-            "MD5": "4517d98dc21da2895ad21cccb42056cf"
-          }
-        },
-        {
-          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.20.1.1012@jar",
-          "name": "Sophisticated Backpacks",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 845184,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.20.1.1012.jar",
-            "MD5": "12e3480b8167f0f850dfb588101f1336"
-          }
-        },
-        {
-          "id": "net.p3pp3rf1y:sophisticatedcore:0.6.3.553@jar",
-          "name": "Sophisticated Core",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1050600,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/sophisticatedcore-1.20.1-0.6.3.553.jar",
-            "MD5": "5daa115186d1e7f4c2021b18500c88d1"
-          }
-        },
-        {
-          "id": "com.ldtteam:structurize:1.20.1-1.0.696-RELEASE@jar",
-          "name": "Structurize",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1029328,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/structurize-1.20.1-1.0.696-RELEASE.jar",
-            "MD5": "acac9020fe89e42d1c90214b78babb99"
-          }
-        },
-        {
-          "id": "toughasnails.core:toughasnails:1.20.1-9.0.0.96@jar",
-          "name": "Tough As Nails",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 271089,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/ToughAsNails-1.20.1-9.0.0.96.jar",
-            "MD5": "0ed78cabb991efb61296dfea1d012981"
-          }
-        },
-        {
-          "id": "com.ldtteam:towntalk:1.0.1@jar",
-          "name": "TownTalk",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 48753029,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/towntalk-1.20.1-1.0.1.jar",
-            "MD5": "8a4d8e471bcef6f9a10ce8bacd8f2e4a"
-          }
-        },
-        {
-          "id": "de.maxhenkel:voicechat:1.20.1-2.5.4@jar",
-          "name": "Simple Voice Chat",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 7704980,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/DictaLand-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.5.4.jar",
-            "MD5": "866696116b7a57a439fc88d75c1714c4"
-          }
-        }
-      ]
-    },
-    {
-      "id": "JOCornet1-1.20.4",
-      "name": "JOCornet1 (Minecraft 1.20.4)",
-      "description": "JOCornet1 Running Minecraft 1.20.4",
-      "icon": "https://cdn.discordapp.com/app-assets/1169609499024293899/1211624617362587718.png?size=4096",
-      "version": "1.0.0",
-      "address": "jocornet.aternos.me",
-      "minecraftVersion": "1.20.4",
-      "discord": {
-        "shortId": "jocornet",
-        "largeImageText": "Jeux Olympiques des Cornets",
-        "largeImageKey": "jocornet"
-      },
-      "mainServer": false,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.15.7",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1327275,
-            "MD5": "13832fed8b4ba82a4dd000b4c4b2e429",
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/fabricmc/fabric-loader/0.15.7/fabric-loader-0.15.7.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.20.4-fabric-0.15.7",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2847,
-                "MD5": "80c6a22d7b619b72336dd2bd863ff5c3",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/versions/1.20.4-fabric-0.15.7/1.20.4-fabric-0.15.7.json"
-              }
             },
             {
               "id": "org.ow2.asm:asm:9.6",
-              "name": "Fabric (asm)",
+              "name": "Minecraft Forge (asm)",
               "type": "Library",
               "artifact": {
                 "size": 123598,
                 "MD5": "6f8bccf756f170d4185bb24c8c2d2020",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.6",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 34041,
-                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
+                "url": "http://bluedistrict.fr/repo/lib/org/ow2/asm/asm/9.6/asm-9.6.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-commons:9.6",
-              "name": "Fabric (asm-commons)",
+              "name": "Minecraft Forge (asm-commons)",
               "type": "Library",
               "artifact": {
                 "size": 72194,
                 "MD5": "9e317c75534bd1da8c00a67c618ab288",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
+                "url": "http://bluedistrict.fr/repo/lib/org/ow2/asm/asm-commons/9.6/asm-commons-9.6.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-tree:9.6",
-              "name": "Fabric (asm-tree)",
+              "name": "Minecraft Forge (asm-tree)",
               "type": "Library",
               "artifact": {
                 "size": 51935,
                 "MD5": "6062608f1a98afe1e853d01fa1221a9e",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
+                "url": "http://bluedistrict.fr/repo/lib/org/ow2/asm/asm-tree/9.6/asm-tree-9.6.jar"
               }
             },
             {
               "id": "org.ow2.asm:asm-util:9.6",
-              "name": "Fabric (asm-util)",
+              "name": "Minecraft Forge (asm-util)",
               "type": "Library",
               "artifact": {
                 "size": 91131,
                 "MD5": "bd3bc1c176a787373e9a031073c9574b",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
+                "url": "http://bluedistrict.fr/repo/lib/org/ow2/asm/asm-util/9.6/asm-util-9.6.jar"
               }
             },
             {
-              "id": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
-              "name": "Fabric (sponge-mixin)",
+              "id": "org.ow2.asm:asm-analysis:9.6",
+              "name": "Minecraft Forge (asm-analysis)",
               "type": "Library",
               "artifact": {
-                "size": 1451874,
-                "MD5": "4cc3ff559cafdc70d9ed80e869d447f0",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/fabricmc/sponge-mixin/0.12.5+mixin.0.8.5/sponge-mixin-0.12.5+mixin.0.8.5.jar"
+                "size": 34041,
+                "MD5": "31c84ef7cc893fb278952ae2d6a2674f",
+                "url": "http://bluedistrict.fr/repo/lib/org/ow2/asm/asm-analysis/9.6/asm-analysis-9.6.jar"
               }
             },
             {
-              "id": "net.fabricmc:intermediary:1.20.4",
-              "name": "Fabric (intermediary)",
+              "id": "cpw.mods:modlauncher:8.1.3",
+              "name": "Minecraft Forge (modlauncher)",
               "type": "Library",
               "artifact": {
-                "size": 608319,
-                "MD5": "3a1cade1634c518db6147c9771686ea9",
-                "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/repo/lib/net/fabricmc/intermediary/1.20.4/intermediary-1.20.4.jar"
+                "size": 126747,
+                "MD5": "b6ba74224a6a68e6fb3e9cf3d72b9344",
+                "url": "http://bluedistrict.fr/repo/lib/cpw/mods/modlauncher/8.1.3/modlauncher-8.1.3.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://bluedistrict.fr/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://bluedistrict.fr/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://bluedistrict.fr/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://bluedistrict.fr/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://bluedistrict.fr/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://bluedistrict.fr/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://bluedistrict.fr/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.15.0",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 301804,
+                "MD5": "a9ccfa7e3382dd2b9e0647a43d8286d7",
+                "url": "http://bluedistrict.fr/repo/lib/org/apache/logging/log4j/log4j-api/2.15.0/log4j-api-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.15.0",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1789769,
+                "MD5": "81e0433ae00602c0e4d00424d213b0ab",
+                "url": "http://bluedistrict.fr/repo/lib/org/apache/logging/log4j/log4j-core/2.15.0/log4j-core-2.15.0.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-slf4j18-impl:2.15.0",
+              "name": "Minecraft Forge (log4j-slf4j18-impl)",
+              "type": "Library",
+              "artifact": {
+                "size": 21223,
+                "MD5": "196442f1bdde4dbb0f576eed616e21b0",
+                "url": "http://bluedistrict.fr/repo/lib/org/apache/logging/log4j/log4j-slf4j18-impl/2.15.0/log4j-slf4j18-impl-2.15.0.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://bluedistrict.fr/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.4",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1069391,
+                "MD5": "25fbb8ff965e88cc2252c99be0cf5cbb",
+                "url": "http://bluedistrict.fr/repo/lib/org/spongepowered/mixin/0.8.4/mixin-0.8.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://bluedistrict.fr/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
               }
             }
           ]
         },
         {
-          "id": "generated.fabricmod:fabric-api:0.96.4+1.20.4@jar",
-          "name": "Fabric API",
-          "type": "FabricMod",
+          "id": "net.geforcemods:securitycraft:v1.9.11@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 2160893,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/fabricmods/required/fabric-api-0.96.4+1.20.4.jar",
-            "MD5": "2ef9ba9b1cf087f4356ebe55366fb9ef"
+            "size": 3909920,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/[1.16.5]%20SecurityCraft%20v1.9.11.jar",
+            "MD5": "cb6d5b810f5dd7143e8d57808d6b22fb"
           }
         },
         {
-          "id": "generated.fabricmod:iris:1.6.17@jar",
-          "name": "Iris",
-          "type": "FabricMod",
+          "id": "com.endertech.minecraft.mods:adchimneys:6.1.0.0@jar",
+          "name": "Advanced Chimneys",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 2421865,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/fabricmods/required/iris-mc1.20.4-1.6.17.jar",
-            "MD5": "cc391df9e929608c37a04a342c6babb3"
+            "size": 193814,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/AdChimneys-1.16.5-6.1.0.0-build.0330.jar",
+            "MD5": "cd3afd1de473ac2b960f7e1ab1877ae7"
           }
         },
         {
-          "id": "me.jellysquid.mods:lithium:0.12.1@jar",
-          "name": "Lithium",
-          "type": "FabricMod",
+          "id": "shadows.apotheosis:apotheosis:4.8.9A0@jar",
+          "name": "Apotheosis",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 716022,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/fabricmods/required/lithium-fabric-mc1.20.4-0.12.1.jar",
-            "MD5": "83da6729d5402dc42eca740a96f97346"
+            "size": 1169760,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Apotheosis-1.16.5-4.8.9A0.jar",
+            "MD5": "960fa610f02c379b9a9653ac98b8412e"
           }
         },
         {
-          "id": "me.jellysquid.mods:sodium:0.5.8+mc1.20.4@jar",
-          "name": "Sodium",
-          "type": "FabricMod",
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.16.4@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 949085,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/fabricmods/required/sodium-fabric-0.5.8+mc1.20.4.jar",
-            "MD5": "d7753a50ca37f50abb10465a9a425dac"
+            "size": 47721,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/appleskin-forge-mc1.16.x-2.5.1.jar",
+            "MD5": "37b9c5ad57da680d7a003956aeb4a4a1"
           }
         },
         {
-          "id": "Faithful 32x - 1.20.4.zip",
-          "name": "Faithful 32x - 1.20.4.zip",
-          "type": "File",
+          "id": "me.shedaniel:architectury:1.32.68@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 8592174,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/files/resourcepacks/Faithful%2032x%20-%201.20.4.zip",
-            "MD5": "f0a5ac765eb93ee67bbd5a79598c6bc5",
-            "path": "resourcepacks/Faithful 32x - 1.20.4.zip"
+            "size": 551889,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/architectury-1.32.68.jar",
+            "MD5": "74a431a4f1a32ec5bbb4bfeb120887c6"
           }
         },
         {
-          "id": "Faithful 64x.zip",
-          "name": "Faithful 64x.zip",
-          "type": "File",
+          "id": "vazkii.arl:autoreglib:1.6-49@jar",
+          "name": "AutoRegLib",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 13852439,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/files/resourcepacks/Faithful%2064x.zip",
-            "MD5": "a3dac3767560806657a63904b56f3fa9",
-            "path": "resourcepacks/Faithful 64x.zip"
+            "size": 57279,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/AutoRegLib-1.6-49.jar",
+            "MD5": "16302251afc7a757f00899b270cc0fa2"
           }
         },
         {
-          "id": "ComplementaryReimagined_r5.1.1.zip",
-          "name": "ComplementaryReimagined_r5.1.1.zip",
-          "type": "File",
+          "id": "commoble.bagofyurting:bagofyurting:1.2.0.1@jar",
+          "name": "Bag of Yurting",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 409956,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/files/shaderpacks/ComplementaryReimagined_r5.1.1.zip",
-            "MD5": "36b4136593cac57d2f9aa651603b6e0f",
-            "path": "shaderpacks/ComplementaryReimagined_r5.1.1.zip"
+            "size": 72813,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/bagofyurting-1.16.4-1.2.0.1.jar",
+            "MD5": "f733975ebfe90d99c9a8722de4d045de"
           }
         },
         {
-          "id": "ComplementaryUnbound_r5.1.1.zip",
-          "name": "ComplementaryUnbound_r5.1.1.zip",
-          "type": "File",
+          "id": "com.yungnickyoung.minecraft:bettercaves:1.16.4-1.1.2@jar",
+          "name": "YUNG's Better Caves",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 409957,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/files/shaderpacks/ComplementaryUnbound_r5.1.1.zip",
-            "MD5": "da7fc4c86b12e65f4f70b3a9aaabae90",
-            "path": "shaderpacks/ComplementaryUnbound_r5.1.1.zip"
+            "size": 1402482,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/BetterCaves-Forge-1.16.4-1.1.2.jar",
+            "MD5": "2a4d2750e78156a6efcbb2ea932d4e6e"
           }
         },
         {
-          "id": "superDuperVanilla.zip",
-          "name": "superDuperVanilla.zip",
-          "type": "File",
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.16.4-1.2.1@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
           "artifact": {
-            "size": 2391068,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/main/servers/JOCornet1-1.20.4/files/shaderpacks/superDuperVanilla.zip",
-            "MD5": "8a15626c511aaee1a83f13f5929c2b44",
-            "path": "shaderpacks/superDuperVanilla.zip"
+            "size": 510439,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/BetterDungeons-1.16.4-1.2.1.jar",
+            "MD5": "a51b4f9c3e0e9fbdb3be8751dd2fc24e"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.16.4-2.0.4@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 289307,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/BetterMineshafts-Forge-1.16.4-2.0.4.jar",
+            "MD5": "94a88366c2e6846b32c5df0a5f044d07"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterportals:1.16.4-0.3.9@jar",
+          "name": "YUNG's Better Portals",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 187898,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/BetterPortals-1.16.4-0.3.9.jar",
+            "MD5": "df3a173cb81033824dcbac8f4fc46116"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.16.4-1.2.1@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 541396,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/BetterStrongholds-1.16.4-1.2.1.jar",
+            "MD5": "47c3af75b76034d5952c0df6440cd3e4"
+          }
+        },
+        {
+          "id": "biomesoplenty.core:biomesoplenty:1.16.5-13.1.0.477@jar",
+          "name": "Biomes O' Plenty",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3651670,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/BiomesOPlenty-1.16.5-13.1.0.477-universal.jar",
+            "MD5": "e9c62fa3fce0a36475bf6e4b5c43a542"
+          }
+        },
+        {
+          "id": "com.willr27:blocklings:7.0.0.4@jar",
+          "name": "Blocklings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 888472,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Blocklings%207.0.0_b4.1%20-%201.16.5.jar",
+            "MD5": "821bf08146f99ab4ccd1736946ad27e5"
+          }
+        },
+        {
+          "id": "net.darkhax:bookshelf:10.4.33@jar",
+          "name": "Bookshelf",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 317032,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Bookshelf-Forge-1.16.5-10.4.33.jar",
+            "MD5": "9f5a57a605dafdd21e48b55fa0aa4fc4"
+          }
+        },
+        {
+          "id": "vazkii.botania:botania:1.16.5-420.3@jar",
+          "name": "Botania",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 15046675,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Botania-1.16.5-420.3.jar",
+            "MD5": "ae588b4b6d85ed1072bcf6598323c510"
+          }
+        },
+        {
+          "id": "corgiaoc.byg.entrypoint:byg:1.3.4@jar",
+          "name": "Oh The Biomes You'll Go",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 10315242,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/byg-1.3.6.jar",
+            "MD5": "47af500ed23d3cacf5404bf984e44250"
+          }
+        },
+        {
+          "id": "dan200.computercraft:computercraft:1.101.3@jar",
+          "name": "CC: Tweaked",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2022341,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/cc-tweaked-1.16.5-1.101.3.jar",
+            "MD5": "537a921345bc5bf41bc0ac639570df70"
+          }
+        },
+        {
+          "id": "net.mcreator:chiseled:0.2.2@jar",
+          "name": "Chiseled",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3617511,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/chiseled0.4.3.jar",
+            "MD5": "a5990b7434e1ddf8ce5034348606d1fd"
+          }
+        },
+        {
+          "id": "mod.chiselsandbits:chiselsandbits:1.0.63@jar",
+          "name": "Chisels & bits",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1283988,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/chiselsandbits-1.0.63.jar",
+            "MD5": "928060d0c6042fdca4f937c2a4c5d854"
+          }
+        },
+        {
+          "id": "com.supermartijn642:chunkloaders:1.2.8a@jar",
+          "name": "Chunk Loaders",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 156894,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/chunkloaders-1.2.8a-forge-mc1.16.jar",
+            "MD5": "a7007a2db8e875d5a17777068d746660"
+          }
+        },
+        {
+          "id": "team.creative:cmdcam:1.5.0@jar",
+          "name": "CMDCam",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82251,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/CMDCam_v1.5.24_mc1.16.5.jar",
+            "MD5": "cbb97809f3e19c7638bc29875dcc4b5b"
+          }
+        },
+        {
+          "id": "cofh.core:cofh_core:1.5.2.22@jar",
+          "name": "CoFH Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1443038,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/cofh_core-1.16.5-1.5.2.22.jar",
+            "MD5": "975c14d7c4237d845bff570cbc3b495d"
+          }
+        },
+        {
+          "id": "org.cyclops:colossalchests:1.8.0@jar",
+          "name": "ColossalChests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 215466,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/ColossalChests-1.16.5-1.8.0.jar",
+            "MD5": "6d235c13fe7d3c242bff81fd6057af0e"
+          }
+        },
+        {
+          "id": "thetadev.constructionwand:constructionwand:1.16.5-2.6@jar",
+          "name": "Construction Wand",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 198793,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/constructionwand-1.16.5-2.6.jar",
+            "MD5": "520b538e6da0b6aeb2c5cf5d154f2492"
+          }
+        },
+        {
+          "id": "com.blamejared:controlling:7.0.0.31@jar",
+          "name": "Controlling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53318,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Controlling-7.0.0.31.jar",
+            "MD5": "b8b714631cfa5849e07e0ffd95951602"
+          }
+        },
+        {
+          "id": "com.simibubi:create:v0.3.2g@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 11564279,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/create-mc1.16.5_v0.3.2g.jar",
+            "MD5": "84ec13d5bccfa71a09783ecb6e089b20"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.16.5-20220129a@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 834203,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/createaddition-1.16.5-20220129a.jar",
+            "MD5": "250fd90a842bb6c1071c58f09ff2febf"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.0.0@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 631207,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/CreativeCore_v2.2.1_mc1.16.5.jar",
+            "MD5": "c32d3e1df267d820eb2b1b8e8adb75e1"
+          }
+        },
+        {
+          "id": "team.chisel:ctm:MC1.16.1-1.1.2.6@jar",
+          "name": "ConnectedTexturesMod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 186068,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/CTM-MC1.16.1-1.1.2.6.jar",
+            "MD5": "758f81bde7ee49b21b8ed2c0e1ef3567"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:1.16.5-4.1.0.0@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 291897,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/curios-forge-1.16.5-4.1.0.0.jar",
+            "MD5": "4f71bcd532f9a3c8b051ef30787bd404"
+          }
+        },
+        {
+          "id": "noppes.npcs:customnpcs:1.16.5.20220515@jar",
+          "name": "Custom NPCs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 12457390,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/CustomNPCs-1.16.5.20220515.jar",
+            "MD5": "9d204b1c5dd8cdbe9737fbdc761f33d9"
+          }
+        },
+        {
+          "id": "org.cyclops:cyclopscore:1.13.0@jar",
+          "name": "Cyclops Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 855134,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/CyclopsCore-1.16.5-1.13.0.jar",
+            "MD5": "bc46d892ae97ffd2ae4ba5fc039d8c07"
+          }
+        },
+        {
+          "id": "net.aurelj:dungeons_arise:2.1.49@jar",
+          "name": "When Dungeons Arise",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5544981,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/DungeonsArise-1.16.5-2.1.49-beta.jar",
+            "MD5": "3fb03d325ae6459f9352bcc6a1c632c8"
+          }
+        },
+        {
+          "id": "xyz.vsngamer:elevatorid:1.16.5-1.7.13@jar",
+          "name": "Elevator Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 183750,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/elevatorid-1.16.5-1.7.13.jar",
+            "MD5": "0eb349656093c5c3cd260ec5aa425193"
+          }
+        },
+        {
+          "id": "net.darkhax:enchdesc:7.1.27@jar",
+          "name": "EnchantmentDescriptions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58127,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/EnchantmentDescriptions-1.16.5-7.1.27.jar",
+            "MD5": "3122486d8c8c3cafb304a0b9dbe5f76e"
+          }
+        },
+        {
+          "id": "com.sunekaer.mods:flatbedrock:1.2.0-build.2+mc1.16.5@jar",
+          "name": "Flat Bedrock",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3646,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/flatbedrock-1.2.0-build.2+mc1.16.5.jar",
+            "MD5": "108e95bc3ab1f45a134676470c852861"
+          }
+        },
+        {
+          "id": "com.jozufozu:flywheel:1.16-0.2.5@jar",
+          "name": "Flywheel",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 420923,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/flywheel-1.16-0.2.5.jar",
+            "MD5": "0964200fddbd4ff67dfab63c5aae161a"
+          }
+        },
+        {
+          "id": "com.endertech.minecraft:forgeendertech:7.3.0.0@jar",
+          "name": "ForgeEndertech",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 542410,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/ForgeEndertech-1.16.5-7.3.0.0-build.0330.jar",
+            "MD5": "96a0a34ef4e1d64d2c399e02b1789c4d"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:1605.3.4-build.90@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 585125,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/ftb-library-forge-1605.3.4-build.90.jar",
+            "MD5": "88b4c3497d1aa260481bd74e464a3d70"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:1605.3.7-build.165@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 953257,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/ftb-quests-forge-1605.3.7-build.165.jar",
+            "MD5": "27b560d2862ce959435dfedeebcf741e"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:1605.2.3-build.40@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 171679,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/ftb-teams-forge-1605.2.3-build.40.jar",
+            "MD5": "08d807589127eac26626d36ac36d1b21"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib3:3.0.106@jar",
+          "name": "GeckoLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3559283,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/geckolib-forge-1.16.5-3.0.106.jar",
+            "MD5": "6f4524eea52474c58280c2b0ac06e1e0"
+          }
+        },
+        {
+          "id": "lykrast.glassential:glassential:1.1.7@jar",
+          "name": "Glassential",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 45602,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/glassential-forge-1.16.5-1.1.7.jar",
+            "MD5": "c683218da299a277995d0faf6944c137"
+          }
+        },
+        {
+          "id": "com.progwml6:ironchest:1.16.5-11.2.21@jar",
+          "name": "Iron Chests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 258298,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/ironchest-1.16.5-11.2.21.jar",
+            "MD5": "ad813ff46d3c9ba127e1033bfe957758"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:itemfilters:1605.2.5-build.9@jar",
+          "name": "Item Filters",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106801,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/item-filters-forge-1605.2.5-build.9.jar",
+            "MD5": "6e81a16049d7f2a6996cd1b0e97a3b03"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:7.8.0.1009@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 839446,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/jei-1.16.5-7.8.0.1009.jar",
+            "MD5": "6c7827e443f483cc5e94aaff7c694901"
+          }
+        },
+        {
+          "id": "journeymap:journeymap:5.8.6@jar",
+          "name": "Journeymap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6694200,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/journeymap-1.16.5-5.8.6.jar",
+            "MD5": "60fc57f5aace9a4c92896f4ced0c60f0"
+          }
+        },
+        {
+          "id": "com.swdteam.lagremoval.main:lag_removal:1.1.0@jar",
+          "name": "Lag_removal",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 17958,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/lag_removal-1.1.1.jar",
+            "MD5": "9fdf409e88e7f152defd603c5b75832e"
+          }
+        },
+        {
+          "id": "io.github.noeppi_noeppi:libx:1.16.3-1.0.76@jar",
+          "name": "LibX",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 373391,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/LibX-1.16.3-1.0.76.jar",
+            "MD5": "76862af5ee0b6d18df35b782835cd5a9"
+          }
+        },
+        {
+          "id": "net.montoyo:mcef:2.3@jar",
+          "name": "MCEF",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3179253,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/mcef-1.16.5-2.3.jar",
+            "MD5": "4b05c20891ef60ca19c4e3acf28a32e6"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.1.1@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1009705,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/mcw-doors-1.1.1forge-mc1.16.5.jar",
+            "MD5": "70162e715190a873ad71d07ad572c390"
+          }
+        },
+        {
+          "id": "net.quetzi:morpheus:4.2.70@jar",
+          "name": "Morpheus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 24390,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Morpheus-1.16.5-4.2.70.jar",
+            "MD5": "a7833a6c8cf784058d8dfdd792f788e1"
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.5.27@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13557419,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/mowziesmobs-1.5.27.jar",
+            "MD5": "d22cdf578a2a167cd25747390d4bd39f"
+          }
+        },
+        {
+          "id": "mythicbotany:mythicbotany:1.16.5-1.4.19@jar",
+          "name": "MythicBotany",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2120826,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/MythicBotany-1.16.5-1.4.19.jar",
+            "MD5": "3d5c21c7b53810925601bc5b525a6b34"
+          }
+        },
+        {
+          "id": "cofh.omgourd:omgourd:1.5.0.2@jar",
+          "name": "Oh My Gourd",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 141232,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/omgourd-1.16.5-1.5.0.2.jar",
+            "MD5": "af2e0d9dce732e32b25bdda5d51f4a94"
+          }
+        },
+        {
+          "id": "pam.pamhc2crops:pamhc2crops:${version}@jar",
+          "name": "Pam's HarvestCraft 2 Crops",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 804052,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/pamhc2crops-1.16.3-1.0.2.jar",
+            "MD5": "2ef2a5f48df1ae92cd699ebc8df80726"
+          }
+        },
+        {
+          "id": "pam.pamhc2foodcore:pamhc2foodcore:${version}@jar",
+          "name": "Pam's HarvestCraft 2 Food Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 328828,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/pamhc2foodcore-1.16.3-1.0.2.jar",
+            "MD5": "88da1864403de90d0cfeb05f9cff8b50"
+          }
+        },
+        {
+          "id": "pam.pamhc2foodextended:pamhc2foodextended:${version}@jar",
+          "name": "Pam's HarvestCraft 2 Food Extended",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1945955,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/pamhc2foodextended-1.16.3-1.0.5.jar",
+            "MD5": "df214cfc8b1084008454f095980eeda8"
+          }
+        },
+        {
+          "id": "com.pam:pamhc2trees:1.0.1@jar",
+          "name": "Pam's HarvestCraft 2 Fruit Trees",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 545318,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/pamhc2trees-1.16.3-1.0.2.jar",
+            "MD5": "c89dda0cdc8158a8cbb90fa8cb7bb837"
+          }
+        },
+        {
+          "id": "vazkii.patchouli.common.base:patchouli:1.16.4-53.3@jar",
+          "name": "Patchouli",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 593352,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Patchouli-1.16.4-53.3.jar",
+            "MD5": "a4791ba66914beed9bb755ae1a84ca87"
+          }
+        },
+        {
+          "id": "shadows.placebo:placebo:4.7.1@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174158,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Placebo-1.16.5-4.7.1.jar",
+            "MD5": "b9436888ceffed9622ce58e0d71f8fd2"
+          }
+        },
+        {
+          "id": "top.theillusivec4:polymorph:1.16.5-0.41@jar",
+          "name": "Polymorph",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 269665,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/polymorph-forge-1.16.5-0.41.jar",
+            "MD5": "1c60cd0ef18ac020d63c20c56f138207"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quark:r2.4-322@jar",
+          "name": "Quark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8796901,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Quark-r2.4-322.jar",
+            "MD5": "1144d99278adcedb6bfac69842fbdf48"
+          }
+        },
+        {
+          "id": "vazkii.quark.base:quarkoddities:1.16.3@jar",
+          "name": "Quark Oddities",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1896,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/QuarkOddities-1.16.3.jar",
+            "MD5": "6c608cd82a2c42570a899fade0d367fe"
+          }
+        },
+        {
+          "id": "com.therandomlabs:randompatches:2.4.4-forge@jar",
+          "name": "RandomPatches",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 423940,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/randompatches-2.4.4-forge.jar",
+            "MD5": "46f910c39ee95a9dc1edf27dad5f1122"
+          }
+        },
+        {
+          "id": "com.blamejared:searchables:1.0.7@jar",
+          "name": "Searchables",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 82181,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Searchables-forge-1.16.5-1.0.7.jar",
+            "MD5": "cb8ead007f42969812801258ea50a847"
+          }
+        },
+        {
+          "id": "com.supermartijn642:simplemagnets:1.1.11@jar",
+          "name": "Simple Magnets",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134233,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/simplemagnets-1.1.11-forge-mc1.16.jar",
+            "MD5": "165554b7c5f65a6a8a06e115a3e85627"
+          }
+        },
+        {
+          "id": "com.talhanation:smallships:1.10.1@jar",
+          "name": "Small Ships Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2400243,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/smallships-1.16.5-1.10.1.jar",
+            "MD5": "d29343cb93fc48215f9a2db7a0495df2"
+          }
+        },
+        {
+          "id": "me.lucko:spark:1.9.1@jar",
+          "name": "Spark",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3157081,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/spark-1.9.1-forge.jar",
+            "MD5": "2d82da0ca51901f70360d555f1257bcd"
+          }
+        },
+        {
+          "id": "com.jaquadro.minecraft:storagedrawers:8.5.2@jar",
+          "name": "Storage Drawers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 575188,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/StorageDrawers-1.16.3-8.5.2.jar",
+            "MD5": "55d1f8f16010ed6ead36c4b985f2b67b"
+          }
+        },
+        {
+          "id": "com.supermartijn642.configlib:supermartijn642configlib:1.1.8@jar",
+          "name": "SuperMartijn642's Config Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 205918,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/supermartijn642configlib-1.1.8-forge-mc1.16.jar",
+            "MD5": "fc11974a83de833a017048251ca27b1b"
+          }
+        },
+        {
+          "id": "com.supermartijn642.core:supermartijn642corelib:1.1.17a@jar",
+          "name": "SuperMartijn642's Core Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 500916,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/supermartijn642corelib-1.1.17a-forge-mc1.16.jar",
+            "MD5": "05b31bffb6edc47f0b5c17a72f55da69"
+          }
+        },
+        {
+          "id": "ovh.corail:tombstone:6.9.1@jar",
+          "name": "Corail Tombstone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2042670,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/tombstone-1.16.5-6.9.1.jar",
+            "MD5": "a85810e8684f0570e6a30ca001997e86"
+          }
+        },
+        {
+          "id": "dev.gigaherz:toolbelt:1.16.3@jar",
+          "name": "Tool Belt",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 242148,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/ToolBelt-1.16.5-1.16.3.jar",
+            "MD5": "06dd94df2d1e8d4ce1ee7e3c6149b49e"
+          }
+        },
+        {
+          "id": "com.supermartijn642:trashcans:1.0.18@jar",
+          "name": "Trash Cans",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 154580,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/trashcans-1.0.18-forge-mc1.16.jar",
+            "MD5": "06f63761425beaeca0e00a31b04c9f0a"
+          }
+        },
+        {
+          "id": "twilightforest:twilightforest:1.16.5-4.0.870-universal@jar",
+          "name": "The Twilight Forest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31748538,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/twilightforest-1.16.5-4.0.870-universal.jar",
+            "MD5": "bc9f7d1c53369268094e970edd26a43c"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.16.5-2.5.24@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7721046,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/voicechat-forge-1.16.5-2.5.24.jar",
+            "MD5": "d7f1a0e741328b3d90b02669a4177db0"
+          }
+        },
+        {
+          "id": "mods.waterstrainer:waterstrainer:1.16.3-10.0.0@jar",
+          "name": "Water Strainer",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 232388,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/WaterStrainer-1.16.3-10.0.0.jar",
+            "MD5": "9424f984e06f9dddbe2535c0fb9bd37d"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:7.6.4@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 375934,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/Waystones_1.16.5-7.6.4.jar",
+            "MD5": "a73806ee8f30e26705503013a54a5961"
+          }
+        },
+        {
+          "id": "xerca.xercapaint:xercapaint:1.16.5-2.1.1@jar",
+          "name": "Joy of Painting",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 390179,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/xercapaint-1.16.5-2.1.1.jar",
+            "MD5": "38acb9420166fbc5adea9df8a1c9ce6d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.16.4-Forge-13@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 106058,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/YungsApi-1.16.4-Forge-13.jar",
+            "MD5": "d9bb57c12da921556bfd981c37f9a49a"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsbridges:1.16.4-1.0.1@jar",
+          "name": "YUNG's Bridges",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 80085,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/YungsBridges-Forge-1.16.4-1.0.1.jar",
+            "MD5": "1bf26f62e9be4eb07b91dab2d01edfe2"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsextras:Forge-1.16.4-1.0@jar",
+          "name": "YUNG's Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 64256,
+            "url": "http://bluedistrict.fr/servers/MODDED-1.16.5/forgemods/required/YungsExtras-Forge-1.16.4-1.0.jar",
+            "MD5": "e27b8af5ec8192c9644dab2eb4606ac9"
           }
         }
       ]
