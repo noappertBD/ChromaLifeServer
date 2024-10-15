@@ -13,7 +13,7 @@
       "description": "MODDED Running Minecraft 1.16.5 (Forge v36.2.42)",
       "icon": "https://pbs.twimg.com/profile_images/1423284666136596494/0S5IMuRf_400x400.jpg",
       "version": "1",
-      "address": "moddedbd.minesr.com",
+      "address": "91.197.6.65:25629",
       "minecraftVersion": "1.16.5",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
