@@ -11,8 +11,8 @@
       "id": "MODDED-1.16.5",
       "name": "MODDED (Minecraft 1.16.5)",
       "description": "MODDED Running Minecraft 1.16.5 (Forge v36.2.42)",
-      "icon": "https://pbs.twimg.com/profile_images/1423284666136596494/0S5IMuRf_400x400.jpg",
-      "version": "1",
+      "icon": null,
+      "version": "",
       "address": "91.197.6.65:25629",
       "minecraftVersion": "1.16.5",
       "discord": {
@@ -564,16 +564,6 @@
             "size": 156894,
             "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/refs/heads/main/servers/MODDED-1.16.5/forgemods/required/chunkloaders-1.2.8a-forge-mc1.16.jar",
             "MD5": "a7007a2db8e875d5a17777068d746660"
-          }
-        },
-        {
-          "id": "team.creative:cmdcam:1.5.0@jar",
-          "name": "CMDCam",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 82251,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/refs/heads/main/servers/MODDED-1.16.5/forgemods/required/CMDCam_v1.5.24_mc1.16.5.jar",
-            "MD5": "cbb97809f3e19c7638bc29875dcc4b5b"
           }
         },
         {
