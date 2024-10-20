@@ -2,9 +2,9 @@
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "1297612042181546116",
+    "smallImageText": "ModdedBDLauncher",
+    "smallImageKey": "minecraft"
   },
   "servers": [
     {
@@ -16,8 +16,8 @@
       "address": "91.197.6.65:25629",
       "minecraftVersion": "1.16.5",
       "discord": {
-        "shortId": 1297612042181546200,
-        "largeImageText": "ModdedBD",
+        "shortId": "ModdedBD v1 - 1.16.5",
+        "largeImageText": "ModdedBD v1",
         "largeImageKey": "logo"
       },
       "mainServer": true,
@@ -1087,13 +1087,13 @@
           }
         },
         {
-          "id": "com.ldtteam:structurize:1.16.5-1.0.454-ALPHA@jar",
+          "id": "com.ldtteam:structurize:1.16.5-1.0.418-ALPHA@jar",
           "name": "Structurize",
           "type": "ForgeMod",
           "artifact": {
             "size": 11409533,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/refs/heads/main/servers/MODDED-1.16.5/forgemods/required/structurize-1.16.5-1.0.454-ALPHA.jar",
-            "MD5": "afc8cb0c3ea230ab0b10ca2032b8b72b"
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/refs/heads/main/servers/MODDED-1.16.5/forgemods/required/structurize-1.16.5-1.0.418-ALPHA.jar",
+            "MD5": "3731d1f34bf7c0ffd79f04656db6713e"
           }
         },
         {
