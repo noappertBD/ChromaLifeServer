@@ -877,16 +877,6 @@
           }
         },
         {
-          "id": "com.swdteam.lagremoval.main:lag_removal:1.1.0@jar",
-          "name": "Lag_removal",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 17958,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/refs/heads/main/servers/MODDED-1.16.5/forgemods/required/lag_removal-1.1.1.jar",
-            "MD5": "9fdf409e88e7f152defd603c5b75832e"
-          }
-        },
-        {
           "id": "io.github.noeppi_noeppi:libx:1.16.3-1.0.76@jar",
           "name": "LibX",
           "type": "ForgeMod",
