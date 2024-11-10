@@ -1137,13 +1137,13 @@
           }
         },
         {
-          "id": "com.ldtteam:structurize:1.16.5-1.0.454-ALPHA@jar",
+          "id": "com.ldtteam:structurize:1.16.5-1.0.418-ALPHA@jar",
           "name": "Structurize",
           "type": "ForgeMod",
           "artifact": {
             "size": 11409533,
-            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/refs/heads/main/servers/MODDED-1.16.5/forgemods/required/structurize-1.16.5-1.0.454-ALPHA.jar",
-            "MD5": "afc8cb0c3ea230ab0b10ca2032b8b72b"
+            "url": "https://raw.githubusercontent.com/noappertBD/ChromaLifeServer/refs/heads/main/servers/MODDED-1.16.5/forgemods/required/structurize-1.16.5-1.0.418-ALPHA.jar",
+            "MD5": "3731d1f34bf7c0ffd79f04656db6713e"
           }
         },
         {
